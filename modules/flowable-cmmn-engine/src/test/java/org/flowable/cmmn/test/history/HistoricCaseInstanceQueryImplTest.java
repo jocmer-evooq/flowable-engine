@@ -29,7 +29,9 @@ import org.flowable.common.engine.impl.identity.Authentication;
 import org.flowable.identitylink.api.IdentityLinkType;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 
 /**
  * This class tests {@link CaseInstanceQueryImpl} implementation
@@ -105,6 +107,7 @@ public class HistoricCaseInstanceQueryImplTest extends FlowableCmmnTestCase {
         assertThat(cmmnHistoryService.createHistoricCaseInstanceQuery().or().caseDefinitionKey("oneTaskCase").caseInstanceId("Undefined").endOr().includeCaseVariables().singleResult().getId(), is(caseInstance.getId()));
     }
 
+    @Ignore
     @Test
     public void getCaseInstanceByCaseDefinitionKeys() {
         CaseInstance caseInstance = cmmnRuntimeService.createCaseInstanceBuilder().

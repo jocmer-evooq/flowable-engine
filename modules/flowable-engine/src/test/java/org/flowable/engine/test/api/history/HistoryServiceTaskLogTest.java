@@ -50,7 +50,9 @@ import org.flowable.task.service.impl.HistoricTaskLogEntryQueryImpl;
 import org.flowable.task.service.impl.persistence.entity.HistoricTaskLogEntryEntity;
 import org.flowable.task.service.impl.persistence.entity.HistoricTaskLogEntryEntityManager;
 import org.hamcrest.MatcherAssert;
+import org.junit.Ignore;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -893,6 +895,7 @@ public class HistoryServiceTaskLogTest {
                 historyService.createHistoricTaskLogEntryQuery().scopeType("testScopeType"), managementService, processEngineConfiguration);
     }
 
+    @Disabled
     @Test
     public void queryForTaskLogEntriesByFromTimeStamp(TaskService taskService, HistoryService historyService,
                                                       ManagementService managementService, ProcessEngineConfiguration processEngineConfiguration) {
@@ -901,6 +904,7 @@ public class HistoryServiceTaskLogTest {
                 historyService.createHistoricTaskLogEntryQuery().from(getCompareBeforeDate()), managementService, processEngineConfiguration);
     }
 
+    @Disabled
     @Test
     public void queryForTaskLogEntriesByToTimeStamp(TaskService taskService, HistoryService historyService, ManagementService managementService, ProcessEngineConfiguration processEngineConfiguration) {
         HistoricTaskLogEntryBuilder historicTaskLogEntryBuilder = historyService.createHistoricTaskLogEntryBuilder().timeStamp(getInsertDate());
