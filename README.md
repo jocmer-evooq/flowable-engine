@@ -48,3 +48,17 @@ Contributing to Flowable: https://github.com/flowable/flowable-engine/wiki.
 Every self-respecting developer should have read this link on how to ask smart questions: http://www.catb.org/~esr/faqs/smart-questions.html.
 
 After you've done that you can post questions and comments on https://forum.flowable.org and create issues in https://github.com/flowable/flowable-engine/issues.
+
+# Build
+
+Full build, or initial build:
+
+```shell
+./build.sh
+```
+
+Fast rebuild (only root sub-modules and spring boot jars, without tests):
+
+```
+./fast-rebuild.sh
+```
