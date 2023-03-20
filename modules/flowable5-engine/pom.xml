@@ -7,27 +7,27 @@
 	<artifactId>flowable5-engine</artifactId>
 
 	<parent>
-		<groupId>org.flowable</groupId>
+		<groupId>com.evooq.flowable</groupId>
 		<artifactId>flowable-root</artifactId>
 		<relativePath>../..</relativePath>
-		<version>6.5.0</version>
+		<version>6.5.0-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>com.evooq.flowable</groupId>
 			<artifactId>flowable-engine</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>com.evooq.flowable</groupId>
 			<artifactId>flowable-bpmn-converter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>com.evooq.flowable</groupId>
 			<artifactId>flowable-process-validation</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>com.evooq.flowable</groupId>
 			<artifactId>flowable-image-generator</artifactId>
 		</dependency>
 		<dependency>
@@ -540,7 +540,7 @@
 			</build>
 			<dependencies>
 				<dependency>
-					<groupId>org.flowable</groupId>
+					<groupId>com.evooq.flowable</groupId>
 					<artifactId>flowable-spring</artifactId>
 					<scope>test</scope>
 				</dependency>

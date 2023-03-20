@@ -7,10 +7,10 @@
   <packaging>war</packaging>
 
   <parent>
-    <groupId>org.flowable</groupId>
+    <groupId>com.evooq.flowable</groupId>
     <artifactId>flowable-spring-boot</artifactId>
     <relativePath>../flowable-spring-boot/pom.xml</relativePath>
-    <version>6.5.0</version>
+    <version>6.5.0-SNAPSHOT</version>
   </parent>
 
   <properties>
@@ -615,7 +615,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-spring-boot-starter-rest</artifactId>
     </dependency>
     <dependency>
@@ -638,15 +638,15 @@
       <artifactId>spring-boot-properties-migrator</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-json-converter</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-groovy-script-static-engine</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-http</artifactId>
     </dependency>
     <dependency>

@@ -197,7 +197,7 @@ First of all, create a new project and add the _flowable-cmmn-engine_ dependency
 [source,xml,linenums]
 ----
 <dependency>
-    <groupId>org.flowable</groupId>
+    <groupId>com.evooq.flowable</groupId>
     <artifactId>flowable-cmmn-engine</artifactId>
     <version>${flowable.version}</version>
 </dependency>

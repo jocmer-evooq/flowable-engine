@@ -7,10 +7,10 @@
     <artifactId>flowable-http</artifactId>
 
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
-        <version>6.5.0</version>
+        <version>6.5.0-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -117,12 +117,12 @@
             <artifactId>httpmime</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-engine</artifactId>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-cmmn-engine</artifactId>
             <scope>provided</scope>
         </dependency>

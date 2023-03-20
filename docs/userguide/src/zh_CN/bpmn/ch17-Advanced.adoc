@@ -84,7 +84,7 @@ Flowable有两种作业类型：定时器（例如边界事件或用户任务中
 [source,xml,linenums]
 ----
 <dependency>
-  <groupId>org.flowable</groupId>
+  <groupId>com.evooq.flowable</groupId>
   <artifactId>flowable-jms-spring-executor</artifactId>
   <version>${flowable.version}</version>
 </dependency>
@@ -809,7 +809,7 @@ runtimeService.addEventListener(databaseEventLogger);
 [source,xml,linenums]
 ----
 <dependency>
-    <groupId>org.flowable</groupId>
+    <groupId>com.evooq.flowable</groupId>
     <artifactId>flowable-secure-javascript</artifactId>
     <version>${flowable.version}</version>
 </dependency>

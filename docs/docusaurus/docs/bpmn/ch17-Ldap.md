@@ -12,7 +12,7 @@ In earlier versions, it was already possible to integrate LDAP, but since then, 
 To add the LDAP integration code to your project, simply add the following dependency to your pom.xml:
 
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-ldap-configurator</artifactId>
       <version>latest.version</version>
     </dependency>

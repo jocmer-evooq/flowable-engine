@@ -14,7 +14,7 @@ It is possible to connect to Flowable engine using standard Java Management Exte
 By default JMX is not enabled. To enable JMX in its default configuration, it is enough to add the flowable-jmx jar file to your classpath, using Maven or by any other means. In case you are using Maven, you can add proper dependency by adding the following lines in your pom.xml:
 
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-jmx</artifactId>
       <version>latest.version</version>
     </dependency>

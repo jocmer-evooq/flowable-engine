@@ -80,7 +80,7 @@ First of all, add the _flowable-jms-spring-executor_ dependency to your project:
 [source,xml,linenums]
 ----
 <dependency>
-  <groupId>org.flowable</groupId>
+  <groupId>com.evooq.flowable</groupId>
   <artifactId>flowable-jms-spring-executor</artifactId>
   <version>${flowable.version}</version>
 </dependency>
@@ -830,7 +830,7 @@ To solve this problem, the _secure scripting_ feature can be enabled. Currently,
 [source,xml,linenums]
 ----
 <dependency>
-    <groupId>org.flowable</groupId>
+    <groupId>com.evooq.flowable</groupId>
     <artifactId>flowable-secure-javascript</artifactId>
     <version>${flowable.version}</version>
 </dependency>

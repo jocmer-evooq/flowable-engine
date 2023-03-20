@@ -197,7 +197,7 @@ The XML for this case model is the following:
 First of all, create a new project and add the *flowable-cmmn-engine* dependency (here shown for Maven). The H2 dependency is also added, as H2 will be used as embedded database later on.
 
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-cmmn-engine</artifactId>
         <version>${flowable.version}</version>
     </dependency>

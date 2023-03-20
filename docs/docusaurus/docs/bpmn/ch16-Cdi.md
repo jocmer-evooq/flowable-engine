@@ -20,7 +20,7 @@ The flowable-cdi modules leverages both the configurability of Flowable and the 
 <!-- -->
 
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-cdi</artifactId>
         <version>6.x</version>
     </dependency>

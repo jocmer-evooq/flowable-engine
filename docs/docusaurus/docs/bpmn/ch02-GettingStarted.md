@@ -64,7 +64,7 @@ Add the following to your *pom.xml* file:
 
     <dependencies>
       <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-engine</artifactId>
         <version>6.5.0.event-SNAPSHOT</version>
       </dependency>

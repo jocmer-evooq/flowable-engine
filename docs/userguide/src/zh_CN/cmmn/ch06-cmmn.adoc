@@ -223,7 +223,7 @@ image::images/cmmn.programmatic.example.png[align="center"]
 [source,xml,linenums]
 ----
 <dependency>
-    <groupId>org.flowable</groupId>
+    <groupId>com.evooq.flowable</groupId>
     <artifactId>flowable-cmmn-engine</artifactId>
     <version>${flowable.version}</version>
 </dependency>

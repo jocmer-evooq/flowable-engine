@@ -25,7 +25,7 @@ In case you don’t need all the engines see the other [Flowable starters](bpmn/
 For example for Maven:
 
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-spring-boot-starter</artifactId>
         <version>${flowable.version}</version>
     </dependency>
@@ -328,7 +328,7 @@ As can be seen, we are referring to the assignee, "kermit", which was hard-coded
 To add JPA support for Flowable in Spring Boot, add following dependency:
 
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-spring-boot-starter</artifactId>
         <version>${flowable.version}</version>
     </dependency>
@@ -975,27 +975,27 @@ In case you need only a combination of the engines then you can add only the req
 For example to use the Process, CMMN, Form and IDM engine and use LDAP you need to add the following dependencies:
 
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-spring-boot-starter-process</artifactId>
         <version>${flowable.version}</version>
     </dependency>
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-spring-boot-starter-cmmn</artifactId>
         <version>${flowable.version}</version>
     </dependency>
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-content-spring-configurator</artifactId>
         <version>${flowable.version}</version>
     </dependency>
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-form-spring-configurator</artifactId>
         <version>${flowable.version}</version>
     </dependency>
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-ldap</artifactId>
         <version>${flowable.version}</version>
     </dependency>

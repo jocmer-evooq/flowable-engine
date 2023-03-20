@@ -6,7 +6,7 @@
     <artifactId>flowable-oas-generator</artifactId>
 
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../../../../</relativePath>
         <version>6.5.0</version>
@@ -234,51 +234,51 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-spring</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-rest</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-json-converter</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-dmn-rest</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-dmn-spring-configurator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-form-rest</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-form-spring-configurator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-content-rest</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-content-spring-configurator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-groovy-script-static-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-http</artifactId>
         </dependency>
 

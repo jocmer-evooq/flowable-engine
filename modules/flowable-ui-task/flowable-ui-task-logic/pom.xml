@@ -5,9 +5,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>flowable-ui-task-logic</artifactId>
 	<parent>
-		<groupId>org.flowable</groupId>
+		<groupId>com.evooq.flowable</groupId>
     	<artifactId>flowable-ui-task</artifactId>
-    	<version>6.5.0</version>
+    	<version>6.5.0-SNAPSHOT</version>
 	</parent>
 	<packaging>jar</packaging>
 
@@ -15,75 +15,75 @@
 	
 		<!-- Flowable -->
 		<dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-engine</artifactId>
         </dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>com.evooq.flowable</groupId>
 			<artifactId>flowable-bpmn-model</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>com.evooq.flowable</groupId>
 			<artifactId>flowable-bpmn-converter</artifactId>
 		</dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-bpmn-layout</artifactId>
         </dependency>        
 		<dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-process-validation</artifactId>
         </dependency>
         <dependency>
-        	<groupId>org.flowable</groupId>
+        	<groupId>com.evooq.flowable</groupId>
         	<artifactId>flowable-json-converter</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-app-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-cmmn-engine</artifactId>
         </dependency>
         <dependency>
-        	<groupId>org.flowable</groupId>
+        	<groupId>com.evooq.flowable</groupId>
         	<artifactId>flowable-dmn-xml-converter</artifactId>
         </dependency>
         <dependency>
-       	 	<groupId>org.flowable</groupId>
+       	 	<groupId>com.evooq.flowable</groupId>
         	<artifactId>flowable-dmn-json-converter</artifactId>
       	</dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-dmn-engine</artifactId>
         </dependency>
       	<dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-form-engine</artifactId>
         </dependency>
 		<dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-form-model</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-form-json-converter</artifactId>
         </dependency>
         <dependency>
-        	<groupId>org.flowable</groupId>
+        	<groupId>com.evooq.flowable</groupId>
         	<artifactId>flowable-spring</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-content-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-content-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>com.evooq.flowable</groupId>
             <artifactId>flowable-ui-common</artifactId>
         </dependency>
 

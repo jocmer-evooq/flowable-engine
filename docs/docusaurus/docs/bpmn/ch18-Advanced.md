@@ -149,7 +149,7 @@ The implementation consists of two classes:
 First of all, add the *flowable-jms-spring-executor* dependency to your project:
 
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>com.evooq.flowable</groupId>
       <artifactId>flowable-jms-spring-executor</artifactId>
       <version>${flowable.version}</version>
     </dependency>
@@ -754,7 +754,7 @@ Scripts on the other hand are part of the process definition and its lifecycle i
 To solve this problem, the *secure scripting* feature can be enabled. Currently, this feature is implemented for *javascript* scripting only. To enable it, add the *flowable-secure-javascript* dependency to your project. When using maven:
 
     <dependency>
-        <groupId>org.flowable</groupId>
+        <groupId>com.evooq.flowable</groupId>
         <artifactId>flowable-secure-javascript</artifactId>
         <version>${flowable.version}</version>
     </dependency>

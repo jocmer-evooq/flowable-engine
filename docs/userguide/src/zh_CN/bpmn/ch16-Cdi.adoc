@@ -14,7 +14,7 @@ flowable-cdi模块结合了Flowable的可配置性及CDI(上下文和依赖注�
 [source,xml,linenums]
 ----
 <dependency>
-	<groupId>org.flowable</groupId>
+	<groupId>com.evooq.flowable</groupId>
 	<artifactId>flowable-cdi</artifactId>
 	<version>6.x</version>
 </dependency>

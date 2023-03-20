@@ -15,7 +15,7 @@
 [source,xml,linenums]
 ----
 <dependency>
-  <groupId>org.flowable</groupId>
+  <groupId>com.evooq.flowable</groupId>
   <artifactId>flowable-ldap-configurator</artifactId>
   <version>latest.version</version>
 </dependency>
